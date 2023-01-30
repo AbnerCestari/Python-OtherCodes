@@ -45,14 +45,14 @@ if answer == "keyboard":
 else:
     print ("I'm afraid not.\n")
 
-answer = input ("What is does SSD stands for? ").lower()
+answer = input ("What does SSD stands for? ").lower()
 if answer == "solid state drive":
     print ("GREAT!\n")
     score += 1
 else:
     print ("I don't think so...\n")
 
-answer = input ("What is does OS stands for? ").lower()
+answer = input ("What does OS stands for? ").lower()
 if answer == "operating system":
     print ("Excellent\n")
     score += 1
@@ -61,7 +61,7 @@ else:
 
 answer = input ("What is called the peripheral you use to control the cursor? ").lower()
 if answer == "mouse":
-    print ("""Thank god you're not stupid enough to call it "mice".\n""") #used three double quotation marks to be able to include " and ' inside the string
+    print ("""Thank god you don't call it "mice".\n""") #used three double quotation marks to be able to include " and ' inside the string
     score += 1
 else:
     print ("Nah!\n")
@@ -75,10 +75,10 @@ else:
 
 answer = input ("Is MAC OS indicated for gaming? ").lower()
 if answer == "no":
-    print ("Thank god! I was about to beat you to death!\n")
+    print ("Thank god! I was about to curse at you!\n")
     score += 1
 else:
-    print ("I'm calling an ambulance to pickup your corpse by the time I finish beating you to death using a baseball bat. \n")
+    print ("I'm calling the police. \n")
 
 print ("You got " + str(score) + " questions correct!\n") #converting the variable "score" to string to be able to concatenate with another string
 print ("That is " + str((score/10)*100) + "%.") #calculating percentage of the score
