@@ -7,8 +7,7 @@ if playing != "yes":
     quit ()
 
 score = 0
-
-print ("\nOkay, let's play then!\n")
+print ("\nOkay, let's play then!!!!\n")
 
 answer = input ("What does CPU stands for? ").lower()
 if answer == "central processing unit": #conditional
